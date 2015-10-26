@@ -32,9 +32,9 @@ google app engine 에서 동작함
 </servlet-mapping>
 ```
 
-POST 요청에 대해서만 받아들이고
-GET 요청은 versions 로 넘긴다. (전체 목록을 보여주는 웹페이지 : version.jsp)
-Database 는 Google App Engine 에서 제공하는 Datastore 를 사용한다.
+POST 요청에 대해서만 받아들이고<br>
+GET 요청은 versions 로 넘긴다. (전체 목록을 보여주는 웹페이지 : version.jsp)<br>
+Database 는 Google App Engine 에서 제공하는 Datastore 를 사용한다.<br>
 
 ```java
 public class CheckerServlet extends HttpServlet {
@@ -100,7 +100,7 @@ public class CheckerServlet extends HttpServlet {
 }
 ```
 
-### 실행결과
+### Execution
 
 브라우저에서 접근한 경우 목록을 보여준다.
 ![web](doc/web-1.png)

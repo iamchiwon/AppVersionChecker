@@ -59,13 +59,13 @@
 						String appver = app.version;
 			%>
 			<tr>
-				<td><%=index%></td>
-				<td id='appkey'><%=appkey%></td>
-
-				<%=appver%></td>
+				<td class='index'><%=index%></td>
+				<td class='appkey'><%=appkey%></td>
+				<td class='appver'><%=appver%></td>
 			</tr>
 			<%
-				}
+				index++;
+					}
 			%>
 		</table>
 		<%
@@ -73,8 +73,9 @@
 		%>
 
 
-		<br /> <br /> <a href="https://github.com/iamchiwon/AppVersionChecker"
-			class="btn"> <img src="https://github.com/fluidicon.png"
+		<br /> <br /> <a
+			href="https://github.com/iamchiwon/AppVersionChecker" class="btn">
+			<img src="https://github.com/fluidicon.png"
 			style="width: 20px; height: 20px;">
 			github.com/iamchiwon/AppVersionChecker
 		</a>

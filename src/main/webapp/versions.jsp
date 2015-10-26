@@ -61,9 +61,9 @@
 			<tr>
 				<td><%=index%></td>
 				<td id='appkey'><%=appkey%></td>
-				<td id='appver'>
-			<%=appver%></td>
-				</tr>
+
+				<%=appver%></td>
+			</tr>
 			<%
 				}
 			%>
@@ -72,6 +72,14 @@
 			}
 		%>
 
+
+		<br /> <br /> <a href="https://github.com/iamchiwon/AppVersionChecker"
+			class="btn"> <img src="https://github.com/fluidicon.png"
+			style="width: 20px; height: 20px;">
+			github.com/iamchiwon/AppVersionChecker
+		</a>
+
 	</div>
+
 </body>
 </html>

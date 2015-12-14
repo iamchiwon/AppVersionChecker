@@ -3,7 +3,8 @@
 최신 버전을 확인하는 버전 체크 서버<br/>
 google app engine 에서 동작함
 
-사이트 가기 : [appversionchecker.appspot.com](https://appversionchecker.appspot.com/)
+- 사이트 가기 : [appversionchecker.appspot.com](https://appversionchecker.appspot.com/)
+- ROR버전 : [AppVersionCheckerRuby](https://github.com/iamchiwon/AppVersionCheckerRuby)
 
 ### Design
 
